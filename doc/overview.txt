@@ -1,0 +1,54 @@
+Email Back Us
+=============
+
+Account Setup:
+-To email address (locked on signup, change with new account)
+-API key
+-On/Off Switch
+-200 Redirect URL
+-500 Redirect URL
+
+Form Processor:
+-Minimum Validation: Some content in at least one field
+-Default POST has redirect
+-JSON & XML POST has detailed responses
+
+Signup Process:
+-Sign up with email
+-Link to account access
+
+Account Config:
+-Log in with email only, get link to account in email, good for 1 hour
+
+
+Tech Stack:
+-----------
+Nginx - Web server
+PHP - Web pages
+MongoDB - Storage Engine
+
+
+Account Schema:
+---------------
+{
+	email: "email@domain.com",
+	apiKey: "Some GUID",
+	active: true/false,
+	url200: "redirect URL on 200 (success)",
+	url500: "redirect URL on 500 (error)",
+	accessToken: "unique token for access",
+	accessTokenExpire: UnixTimestamp
+}
+
+Upgrade Options:
+----------------
+CAPTCHA:
+	-Remotely Served Images, inline in form easily, no javascript
+Attachments: multipart
+Hosted forms
+	-Iframe
+	-Javascript
+	-Validations
+Hosted responses (non emails)
+Perform other tasks on post? Upload PHP?
+	

@@ -1,0 +1,53 @@
+		<style type="text/css">
+			html {
+				height: 100%;
+			}
+			body {
+				font: 22px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;;
+				margin: 0;
+				padding: 0;
+				line-height: 1.5em;
+				overflow-x: none;
+				min-width: 800px;
+				height: 100%;
+				background: #e3e5e7 url('../images/background-texture.png') repeat 0 0;
+				background-image: url('../images/background-texture.png'), -ms-radial-gradient(center, circle cover, #FFFFFF 0%, #326192 200%);
+				background-image: url('../images/background-texture.png'), -moz-radial-gradient(center, circle cover, #FFFFFF 0%, #326192 200%);
+				background-image: url('../images/background-texture.png'), -o-radial-gradient(center, circle cover, #FFFFFF 0%, #326192 200%);
+				background-image: url('../images/background-texture.png'), -webkit-gradient(radial, center center, 0, center center, 501, color-stop(0, #FFFFFF), color-stop(2, #326192));
+				background-image: url('../images/background-texture.png'), -webkit-radial-gradient(center, circle cover, #FFFFFF 0%, #326192 200%);
+				background-image: url('../images/background-texture.png'), radial-gradient(center, circle cover, #FFFFFF 0%, #326192 200%);
+			}
+			h1 {
+				font-size: 28px;
+				text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+				color: #555;
+			}
+			a {
+				color: #e24623;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			.page {
+				position: absolute;
+				top: 35%;
+				width: 100%;
+			}
+			.content {
+				background-color: #FEFBF3;
+				width: 500px;
+				margin: 10px auto;
+				padding: 20px;
+				border: 1px solid #bbb;
+				-moz-border-radius: 4px;
+				-khtml-border-radius: 4px;
+				-webkit-border-radius: 4px;
+				border-radius: 4px;
+				-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+				-moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+				box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+				text-align: center;
+			}
+		</style>
