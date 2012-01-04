@@ -28,7 +28,7 @@
 		<div id="content">
 			<div class="content_section">
 				<h2>How It Works</h2>
-				<p>EmailBackUs is the world's simplest web form processor.  Just register an email address, set up your web form to point to us, and get your users' submissions instantly.  No back-end coding required.  You can use standard HTTP form posts that redirect back to your own thank you page or get fancy with Javascript and our RESTful JSON web service.</p>
+				<p>EmailBackUs is the world's simplest web form processor.  Just register an email address, set up your web form to point to us, and get your users' submissions instantly.  No back-end coding required.  You can use standard HTTP form posts that redirect back to your own thank you page.</p>
 			</div>
 			<div class="content_section">
 				<h2>How Much It Costs</h2>
@@ -40,7 +40,7 @@
 			</div>
 			<div class="content_section">
 				<h2>Seamless Integration</h2>
-				<p>Our form processor redirects back to your site at the HTTP level, so your users never know they've left your site.  Just set up a page for them to land on when they press 'Send' and that's the very next page they'll see.  Or, use our web services to submit your form asynchronously and never even reload the page!</p>
+				<p>Our form processor redirects back to your site at the HTTP level, so your users never know they've left your site.  Just set up a page for them to land on when they press 'Send' and that's the very next page they'll see.</p>
 			</div>
 		</div>
 

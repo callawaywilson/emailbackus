@@ -27,9 +27,11 @@
 
 	<?php include("content/analytics.php"); ?>
 
+	<link href="css/prettify.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="js/prettify.js"></script>
 </head>
 
-<body>
+<body onload="prettyPrint()">
 
 	<?php include("content/header.php"); ?>
 
@@ -67,6 +69,38 @@
 					<button type="submit" class="btn primary">Submit</button>
 				</div>
 			</form>
+
+			<h2 class="form_title">My Sample Form's Source</h2>
+			<pre class="prettyprint code" style="font-size: 12px">
+&lt;form action="http://emailback.us/submit.php" method="POST"&gt;
+	&lt;input type="hidden" name="apiKey" 
+		value="<?php echo $user["apiKey"]; ?>"/&gt;
+
+	&lt;div class="field"&gt;
+		&lt;label for="email"&gt;Email Address&lt;/label&gt;
+		&lt;input name="email" size="50" value=""/&gt;
+	&lt;/div&gt;
+
+	&lt;div class="field"&gt;
+		&lt;label for="subject"&gt;Subject&lt;/label&gt;
+		&lt;input name="subject" size="50" value=""/&gt;
+	&lt;/div&gt;
+
+	&lt;div class="field"&gt;
+		&lt;label for="message"&gt;Message&lt;/label&gt;
+		&lt;textarea name="message" rows="5" cols="35" value=""&gt;&lt;/textarea&gt;
+	&lt;/div&gt;
+
+	&lt;div class="field"&gt;
+		&lt;label for="respond"&gt;Respond?&lt;/label&gt;
+		&lt;input type="checkbox" name="respond"/&gt;
+	&lt;/div&gt;
+
+	&lt;div class="form_buttons"&gt;
+		&lt;button type="submit" class="btn primary"&gt;Submit&lt;/button&gt;
+	&lt;/div&gt;
+&lt;/form&gt;			
+			</pre>
 		</div>
 
 	</div>
