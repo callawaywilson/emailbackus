@@ -47,17 +47,17 @@
 
 				<div class="field">
 					<label for="email">Email Address</label>
-					<input name="email" size="50" value=""/>
+					<input name="email" class="form_input" value=""/>
 				</div>
 
 				<div class="field">
 					<label for="subject">Subject</label>
-					<input name="subject" size="50" value=""/>
+					<input name="subject" class="form_input" value=""/>
 				</div>
 
 				<div class="field">
 					<label for="message">Message</label>
-					<textarea name="message" rows="5" cols="35" value=""></textarea>
+					<textarea name="message" rows="5"  class="form_input" value=""></textarea>
 				</div>
 
 				<div class="field">
@@ -78,17 +78,17 @@
 
 	&lt;div class="field"&gt;
 		&lt;label for="email"&gt;Email Address&lt;/label&gt;
-		&lt;input name="email" size="50" value=""/&gt;
+		&lt;input name="email" value=""/&gt;
 	&lt;/div&gt;
 
 	&lt;div class="field"&gt;
 		&lt;label for="subject"&gt;Subject&lt;/label&gt;
-		&lt;input name="subject" size="50" value=""/&gt;
+		&lt;input name="subject" value=""/&gt;
 	&lt;/div&gt;
 
 	&lt;div class="field"&gt;
 		&lt;label for="message"&gt;Message&lt;/label&gt;
-		&lt;textarea name="message" rows="5" cols="35" value=""&gt;&lt;/textarea&gt;
+		&lt;textarea name="message" value=""&gt;&lt;/textarea&gt;
 	&lt;/div&gt;
 
 	&lt;div class="field"&gt;
@@ -97,7 +97,7 @@
 	&lt;/div&gt;
 
 	&lt;div class="form_buttons"&gt;
-		&lt;button type="submit" class="btn primary"&gt;Submit&lt;/button&gt;
+		&lt;button type="submit"&gt;Submit&lt;/button&gt;
 	&lt;/div&gt;
 &lt;/form&gt;			
 			</pre>

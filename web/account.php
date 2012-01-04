@@ -60,12 +60,12 @@
 
 				<div class="field">
 					<label for="url200">Success URL</label>
-					<input name="url200" size="50" value="<?php echo $user['url200']; ?>"/>
+					<input name="url200" class="form_input" value="<?php echo $user['url200']; ?>"/>
 				</div>
 
 				<div class="field">
 					<label for="url500">Error URL</label>
-					<input name="url500" size="50" value="<?php echo $user['url500']; ?>"/>
+					<input name="url500" class="form_input" value="<?php echo $user['url500']; ?>"/>
 				</div>
 
 				<div class="field">

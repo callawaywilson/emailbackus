@@ -33,22 +33,22 @@
 
 				<div class="field">
 					<label for="name">Name</label>
-					<input name="name" size="50" value=""/>
+					<input name="name" class="form_input" value=""/>
 				</div>
 
 				<div class="field">
 					<label for="email">Email Address</label>
-					<input name="email" size="50" value=""/>
+					<input name="email" class="form_input" value=""/>
 				</div>
 
 				<div class="field">
 					<label for="subject">Subject</label>
-					<input name="subject" size="50" value=""/>
+					<input name="subject" class="form_input" value=""/>
 				</div>
 
 				<div class="field">
 					<label for="message">Message</label>
-					<textarea name="message" rows="5" cols="35" value=""></textarea>
+					<textarea name="message" class="form_input" rows="5" value=""></textarea>
 				</div>
 
 				<div class="form_buttons">
