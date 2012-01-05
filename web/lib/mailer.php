@@ -78,8 +78,8 @@ $user["accessToken"]);
 			$body = $body . "Form submitted from: " . $_SERVER['HTTP_REFERER'] . "\n\n";
 		}
 		foreach ($params as $key => $val) {
-			$body = $body . $key . ":\n";
-			$body = $body . $val . "\n\n";
+			$body = $body . strip_tags($key) . ":\n";
+			$body = $body . strip_tags($val) . "\n\n";
 		}
 		return $body;
 	}
